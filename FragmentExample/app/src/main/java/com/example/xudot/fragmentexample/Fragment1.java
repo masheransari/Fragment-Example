@@ -36,14 +36,14 @@ public class Fragment1 extends Fragment {
         btnNavFrag1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(), "Going One Fragement 1", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Going One Fragment 1", Toast.LENGTH_SHORT).show();
                 ((MainActivity)getActivity()).setViewPager(0);
             }
         });
         btnNavFrag2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(), "Going One Fragement 2", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Going two Fragment 2", Toast.LENGTH_SHORT).show();
                 ((MainActivity)getActivity()).setViewPager(1);
 
             }
@@ -51,7 +51,7 @@ public class Fragment1 extends Fragment {
         btnNavFrag3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(), "Going One Fragement 3", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Going three Fragment 3", Toast.LENGTH_SHORT).show();
                 ((MainActivity)getActivity()).setViewPager(2);
 
             }
